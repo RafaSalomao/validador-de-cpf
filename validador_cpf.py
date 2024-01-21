@@ -56,6 +56,9 @@ while True:
     if len(cpf_informado) !=  11:
         print('Formato do CPF é inválido, digite novamente.')
         print()
+    elif cpf_informado[0] * len(cpf_informado) == cpf_informado:
+        print('Formato do CPF é inválido, digite novamente.')
+        print()
     else:
         break
 # Imprime na tela o status do cpf informado
